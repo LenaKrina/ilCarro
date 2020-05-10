@@ -32,7 +32,7 @@ public class ApplicationManager {
         user = new UserHelper(wd);
 
         session = new SessionHelper(wd);
-        session.login("krinskaya@gmail.com", "Krina123");
+       // session.login("krinskaya@gmail.com", "Krina123");
         Thread.sleep(3000);
 
     }
