@@ -27,7 +27,7 @@ public class ApplicationManager {
 
         wd.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         wd.manage().window().maximize();
-        wd.navigate().to("https://ilcarro-1578153671498.web.app");
+        wd.navigate().to("https://ilcarro-dev-v1.firebaseapp.com/");
 
         user = new UserHelper(wd);
 
